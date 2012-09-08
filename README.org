@@ -1,0 +1,89 @@
+* Goals
+Exclusive private property is so passé: welcome to the area of
+polyownership !
+
+Joint ownership and lending meet the social web.
+
+While it's not always a theft, Total Cost of Ownsership including
+storage doesn't make it a steal either.
+Why hoard things that you rarely use ? Renting isn't always an option
+and get expensive pretty fast. Lending is find, but doesn't
+always scale.
+
+What we propose is for people to share goods amongst communities.
+
+Their should be plugable rules for handling:
+- communities (joining, leaving,…)
+- goods circulations (request queues, dispatch approval, lending duration,…)
+- …
+
+** Example usage
+** books
+I have stacks of books everywhere in my apartment (and basement, and
+parking lot). They'd be more useful on someone else shelves.
+** tools
+I have a drill press, hammer drill and a ripper that I use once in a while.
+
+* TODO Gather interested parties
+There are *no* deadlines, the road traveled is as important as the
+destination. Getting to use interesting technologies for an
+interesting project is what it's all about. Any input, be it advice,
+testing or actual code, is more than welcome.
+
+** Coders
+If you are reading this, by all means do consider adding yourself
+bellow and submitting a pull request !
+*** scientific-coder :github:
+
+** Users
+If you are reading this, be all means do consider adding yourself
+to the list by emailing some coder from the list above !
+
+* TODO Use Cases
+[[http://doc.norang.ca/org-mode.html#PlantUMLUseCase][Make some pretty diagrams]]
+
+* TODO Architecture
+[[http://doc.norang.ca/org-mode.html#PlantUMLSequence][Ditto
+]]
+* Development guidelines
+"State, you're doing it wrong !"
+- [[http://data-sorcery.org/2010/12/29/hammock-driven-dev/][Hammock Driven Development]]
+- [[http://programming-motherfucker.com/][Programming MoFo]]
+- [[http://www.12factor.net/][12 factor rules]]
+
+Taking into account the hosting choices.
+
+* TODO choose license
+[[https://www.gnu.org/copyleft/gpl.html][GPL v3]] or later ?
+
+* TODO choose technologies
+** hosting
+Choices shouldn't be exclusive to avoid lock-in and should allow free
+development hosting.
+*** Heroku
+
+*** Openshift
+
+** server side
+*** TODO web front
+- [[http://webnoir.org/][Webnoir]] ?
+ - starting from [[https://github.com/xavi/noir-auth-app][noir-auth-app]] ?
+- some [[https://github.com/acidlabs/rip][REST]] or [[http://clojure-liberator.github.com/][another]] ?
+
+**** We could do without any Clojure Web server               :controversial:
+Serve only the code for client for a Single Page Web App and have
+(RESTful ?) web services to handle AJAX.
+  
+*** TODO database
+- Postgresql ?
+- NoSQL ?
+  - Which one ?
+- [[http://www.datomic.com/][Datomics]] ?
+  - behind [[http://docs.datomic.com/rest.html][REST API]] ?
+
+*** Client
+ClojureScript starting from [[http://clojurescriptone.com/][ClojureScript One]] or [[https://github.com/ckirkendall/The-Great-Todo][another example app]]
+or [[http://blog.mezeske.com/?p%3D552][another one]] .
+
+* TODO add .gitignore
+* lein new this project
