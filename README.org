@@ -36,7 +36,7 @@ bellow and submitting a pull request !
 *** scientific-coder :github:
 
 ** Users
-If you are reading this, be all means do consider adding yourself
+If you are reading this, by all means do consider adding yourself
 to the list by emailing some coder from the list above !
 
 * TODO Use Cases
