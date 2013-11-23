@@ -64,7 +64,13 @@ development hosting.
 
 *** Openshift
 
+*** Digital Ocean
+
 ** server side
+Pedestal & Immutant
+http://oredev.org/2012/sessions/micro-service-architecture
+
+
 *** TODO web front
 - [[http://webnoir.org/][Webnoir]] ?
  - starting from [[https://github.com/xavi/noir-auth-app][noir-auth-app]] ?
@@ -73,7 +79,7 @@ development hosting.
 **** We could do without any Clojure Web server               :controversial:
 Serve only the code for client for a Single Page Web App and have
 (RESTful ?) web services to handle AJAX.
-  
+
 *** TODO database
 - Postgresql ?
 - NoSQL ?
