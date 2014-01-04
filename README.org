@@ -34,6 +34,7 @@ testing or actual code, is more than welcome.
 If you are reading this, by all means do consider adding yourself
 bellow and submitting a pull request !
 *** scientific-coder :github:
+*** jnorthrup :github:
 
 ** Users
 If you are reading this, by all means do consider adding yourself
