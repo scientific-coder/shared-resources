@@ -1,3 +1,6 @@
+http://github.com/sseehh/netjs
+https://github.com/sseehh/netjs/tree/master/doc
+
 * Goals
 Exclusive private property is so passé: welcome to the area of
 polyownership !
